@@ -16,5 +16,7 @@ RUN apt-get update \
 # Setting the working dir
 WORKDIR /DevWeb
 
+EXPOSE 3000
+
 # Entrypoint
 ENTRYPOINT [ "bash","/run.sh" ]
