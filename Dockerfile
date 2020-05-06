@@ -1,7 +1,7 @@
 # Base Image
 FROM ubuntu:18.04
 
-LABEL   Description="This image is used to execute LoadRunner Developer scripts in Windows. It uses DevWeb as its backbone." \
+LABEL   Description="This image is used to execute LoadRunner Developer scripts in Linux. It uses DevWeb as its backbone." \
         Maintainer="NaveenKumar Namchivayam" \
         Vendor="QAInsights.com"
 
