@@ -1,6 +1,0 @@
-application:
-  name: devweb
-  project: devweb
-  cloud_region: aws/ap-east-1
-  publicly_accessible: true
-  dockerfile: Dockerfile
