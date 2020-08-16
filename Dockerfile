@@ -9,14 +9,13 @@ LABEL   Description="This image is used to execute LoadRunner Developer scripts 
 COPY / /
 
 # Updating Ubuntu and extracting the TAR file
-RUN apt-get update \
-    && apt-get upgrade \
-    && tar -xvf DevWeb_2020.1.tar
+RUN apt-get update -y \
+    && apt-get upgrade -y \
+    && tar -xvf LoadRunner_Developer_2020.2.tar.gz
 
 # Setting the working dir
 WORKDIR /DevWeb
 
-EXPOSE 3000
-
 # Entrypoint
-ENTRYPOINT [ "bash","/run.sh" ]
+ENTRYPOINT ["bash","/run.sh" ]
+#CMD [ "/bin/bash" ]
