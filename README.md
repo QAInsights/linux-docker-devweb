@@ -51,7 +51,7 @@ Important Notes:
 
 You can mount your host to the container using the below command.
 
-`docker run -v C:\Scripts\AdvantageOnlineShopping:/Scripts/AdvantageOnlineShopping devwebl --mode=single /Scripts/AdvantageOnlineShopping`
+`docker run -v C:\Scripts\AdvantageOnlineShopping:/Scripts/AdvantageOnlineShopping <image-name> --mode=single /Scripts/AdvantageOnlineShopping`
 
 ## How to view the results?
 
