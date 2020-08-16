@@ -41,7 +41,7 @@ This image uses Ubuntu as base image.
 
 Once the build is successful, you can run the script from the `examples` folder using the below command.
 
-`docker run devweb -mode=single .\examples\EmptyScript`
+`docker run devweb -mode=single ./examples/EmptyScript`
 
 Important Notes:
 * No need to append DevWeb.exe in the command
